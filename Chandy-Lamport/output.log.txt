@@ -1,0 +1,543 @@
+=========
+PS D:\ogl> go run "d:\testgo\chandylamport.go"
+Enter the number of Processes
+3
+Enter the number of bank account for each processes
+3
+Process 2 sending 21 to Process 0
+Process 2 sending 26 to Process 0
+Process 2 sending 46 to Process 0
+Process 2 sending 7 to Process 0
+Process 2 sending 42 to Process 1
+Process 2 sending 92 to Process 1
+Process 2 sending 97 to Process 0
+Process 2 sending 42 to Process 0
+Process 2 sending 40 to Process 0
+Taking Snapshot!
+Total Balance : [9279 9134 8587]
+=========
+Channel State of Proc 0 :
+Channel 0:map[]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 1 :
+Channel 0:map[]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 2 :
+Channel 0:map[2:279]
+Channel 1:map[]
+Channel 2:map[]
+Process 1 sending 91 to Process 0
+Process 1 sending 91 to Process 2
+Process 0 sending 51 to Process 2
+Process 1 sending 38 to Process 2
+Process 1 sending 14 to Process 2
+Process 0 sending 75 to Process 2
+Process 0 sending 33 to Process 1
+Process 0 sending 99 to Process 1
+Process 1 sending 40 to Process 2
+Process 0 sending 14 to Process 1
+Process 0 sending 33 to Process 1
+Process 0 sending 56 to Process 1
+Process 0 sending 43 to Process 2
+Process 0 sending 57 to Process 1
+Process 0 sending 98 to Process 1
+Total Balance : [8532 9250 8939]
+=========
+Channel State of Proc 0 :
+Channel 0:map[]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 1 :
+Channel 0:map[]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 2 :
+Taking Snapshot!
+Channel 0:map[2:279]
+Channel 1:map[]
+Channel 2:map[]
+Process 2 sending 88 to Process 0
+Process 2 sending 88 to Process 0
+Process 0 sending 2 to Process 1
+Process 0 sending 18 to Process 1
+Process 2 sending 54 to Process 1
+Process 2 sending 32 to Process 1
+Process 2 sending 44 to Process 0
+Process 0 sending 95 to Process 2
+Process 0 sending 90 to Process 2
+Process 2 sending 59 to Process 1
+Process 2 sending 78 to Process 1
+Process 0 sending 48 to Process 1
+Process 2 sending 57 to Process 0
+Process 0 sending 17 to Process 2
+Process 2 sending 18 to Process 0
+Process 2 sending 80 to Process 1
+Process 2 sending 78 to Process 1
+Process 0 sending 24 to Process 1
+Process 0 sending 60 to Process 2
+Taking Snapshot!
+Total Balance : [8178 9241 8525]
+=========
+Channel State of Proc 0 :
+Channel 0:map[]
+Channel 1:map[0:482]
+Channel 2:map[]
+
+Channel State of Proc 1 :
+Channel 0:map[]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 2 :
+Channel 0:map[2:574]
+Channel 1:map[]
+Channel 2:map[]
+Process 0 sending 23 to Process 2
+Process 0 sending 23 to Process 2
+Process 2 sending 15 to Process 0
+Process 0 sending 4 to Process 2
+Process 2 sending 71 to Process 0
+Process 0 sending 68 to Process 2
+Process 0 sending 61 to Process 1
+Process 0 sending 21 to Process 1
+Process 0 sending 58 to Process 1
+Process 2 sending 74 to Process 1
+Process 0 sending 49 to Process 2
+Process 0 sending 32 to Process 1
+Process 2 sending 97 to Process 0
+Process 0 sending 92 to Process 2
+Process 2 sending 98 to Process 0
+Process 2 sending 18 to Process 1
+Process 0 sending 29 to Process 2
+Process 0 sending 54 to Process 1
+Process 2 sending 2 to Process 0
+Process 0 sending 72 to Process 2
+Process 2 sending 86 to Process 0
+Process 0 sending 38 to Process 2
+Process 0 sending 53 to Process 1
+Taking Snapshot!
+Total Balance : [7501 9333 8462]
+=========
+Channel State of Proc 0 :
+Channel 0:map[]
+Channel 1:map[0:761]
+Channel 2:map[]
+
+Channel State of Proc 1 :
+Channel 0:map[]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 2 :
+Channel 0:map[2:943]
+Channel 1:map[]
+Channel 2:map[]
+Process 2 sending 12 to Process 1
+Process 2 sending 12 to Process 1
+Process 0 sending 12 to Process 1
+Process 2 sending 6 to Process 1
+Process 2 sending 69 to Process 1
+Process 0 sending 38 to Process 2
+Process 2 sending 62 to Process 0
+Process 0 sending 89 to Process 1
+Process 2 sending 88 to Process 1
+Process 2 sending 27 to Process 1
+Process 2 sending 8 to Process 0
+Process 2 sending 44 to Process 1
+Process 2 sending 30 to Process 0
+Process 0 sending 60 to Process 1
+Process 2 sending 78 to Process 1
+Process 2 sending 95 to Process 0
+Process 2 sending 52 to Process 0
+Process 2 sending 51 to Process 1
+Process 0 sending 17 to Process 1
+Process 0 sending 91 to Process 2
+Process 2 sending 32 to Process 0
+Taking Snapshot!
+Total Balance : [7194 9720 7925]
+=========
+Channel State of Proc 0 :
+Channel 0:map[]
+Channel 1:map[0:939]
+Channel 2:map[]
+
+Channel State of Proc 1 :
+Channel 0:map[]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 2 :
+Channel 0:map[2:1222]
+Channel 1:map[]
+Channel 2:map[]
+Process 0 sending 22 to Process 2
+Process 2 sending 14 to Process 0
+Process 2 sending 49 to Process 0
+Process 0 sending 18 to Process 2
+Process 2 sending 85 to Process 0
+Process 0 sending 49 to Process 2
+Process 0 sending 33 to Process 1
+Process 2 sending 69 to Process 0
+Process 2 sending 6 to Process 1
+Process 0 sending 67 to Process 2
+Process 0 sending 85 to Process 1
+Process 2 sending 74 to Process 0
+Process 2 sending 3 to Process 0
+Process 2 sending 69 to Process 1
+Process 2 sending 31 to Process 0
+Process 2 sending 43 to Process 1
+Process 2 sending 59 to Process 0
+Process 0 sending 5 to Process 1
+Process 2 sending 69 to Process 1
+Process 2 sending 95 to Process 1
+Process 0 sending 28 to Process 1
+Process 2 sending 33 to Process 1
+Total Balance : [6887 10035 7382]
+=========
+Channel State of Proc 0 :
+Channel 0:map[]
+Channel 1:map[0:1090]
+Channel 2:map[]
+
+Channel State of Proc 1 :
+Channel 0:map[]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 2 :
+Taking Snapshot!
+Channel 0:map[2:1606]
+Channel 1:map[]
+Channel 2:map[]
+Process 1 sending 41 to Process 0
+Process 1 sending 12 to Process 0
+Process 1 sending 94 to Process 0
+Process 1 sending 71 to Process 2
+Process 1 sending 19 to Process 2
+Process 1 sending 64 to Process 2
+Process 1 sending 62 to Process 0
+Process 1 sending 51 to Process 0
+Process 1 sending 22 to Process 2
+Process 1 sending 93 to Process 0
+Process 1 sending 98 to Process 2
+Process 1 sending 73 to Process 2
+Process 1 sending 18 to Process 2
+Process 1 sending 70 to Process 2
+Process 1 sending 70 to Process 2
+Process 1 sending 76 to Process 0
+Process 1 sending 48 to Process 0
+Total Balance : [7364 9053 7887]
+=========
+Channel State of Proc 0 :
+Channel 0:map[]
+Channel 1:map[0:1090]
+Channel 2:map[]
+
+Channel State of Proc 1 :
+Channel 0:map[]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 2 :
+Channel 0:map[2:1606]
+Channel 1:map[]
+Channel 2:map[]
+Taking Snapshot!
+Process 0 sending 41 to Process 2
+Process 2 sending 93 to Process 1
+Process 2 sending 88 to Process 1
+Process 0 sending 37 to Process 2
+Process 1 sending 93 to Process 0
+Process 1 sending 76 to Process 2
+Process 2 sending 73 to Process 1
+Process 0 sending 89 to Process 2
+Process 2 sending 8 to Process 0
+Process 0 sending 93 to Process 1
+Process 0 sending 3 to Process 1
+Process 1 sending 29 to Process 0
+Process 0 sending 79 to Process 2
+Process 0 sending 79 to Process 1
+Process 1 sending 81 to Process 2
+Process 2 sending 87 to Process 1
+Process 2 sending 47 to Process 1
+Process 1 sending 5 to Process 2
+Process 1 sending 9 to Process 0
+Process 2 sending 10 to Process 1
+Process 1 sending 83 to Process 0
+Process 0 sending 29 to Process 2
+Total Balance : [6346 9075 7918]
+=========
+Channel State of Proc 0 :
+Channel 0:map[]
+Channel 1:map[0:1265]
+Channel 2:map[]
+
+Channel State of Proc 1 :
+Channel 0:map[1:782]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 2 :
+Channel 0:map[2:1614]
+Channel 1:map[]
+Channel 2:map[]
+Taking Snapshot!
+Process 1 sending 9 to Process 2
+Process 2 sending 26 to Process 0
+Process 2 sending 50 to Process 0
+Process 1 sending 49 to Process 2
+Process 1 sending 1 to Process 2
+Process 1 sending 62 to Process 2
+Process 1 sending 34 to Process 0
+Process 1 sending 26 to Process 0
+Process 1 sending 43 to Process 2
+Process 1 sending 91 to Process 0
+Process 2 sending 86 to Process 1
+Process 1 sending 13 to Process 2
+Process 1 sending 97 to Process 0
+Process 2 sending 9 to Process 1
+Process 1 sending 79 to Process 0
+Process 1 sending 22 to Process 0
+Process 1 sending 45 to Process 2
+Process 1 sending 93 to Process 0
+Process 2 sending 86 to Process 0
+Total Balance : [6346 8506 7883]
+=========
+Channel State of Proc 0 :
+Channel 0:map[]
+Channel 1:map[0:1265]
+Channel 2:map[]
+
+Channel State of Proc 1 :
+Channel 0:map[1:1224]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 2 :
+Channel 0:map[2:1776]
+Channel 1:map[]
+Channel 2:map[]
+Taking Snapshot!
+Process 0 sending 3 to Process 2
+Process 0 sending 81 to Process 1
+Process 0 sending 12 to Process 1
+Process 0 sending 16 to Process 1
+Process 0 sending 93 to Process 2
+Process 0 sending 20 to Process 2
+Process 0 sending 22 to Process 2
+Process 0 sending 77 to Process 2
+Process 0 sending 74 to Process 2
+Process 0 sending 83 to Process 2
+Process 0 sending 93 to Process 2
+Process 0 sending 85 to Process 2
+Process 0 sending 71 to Process 2
+Process 0 sending 70 to Process 2
+Process 0 sending 91 to Process 2
+Process 0 sending 45 to Process 1
+Process 0 sending 36 to Process 2
+Process 0 sending 50 to Process 1
+Process 0 sending 2 to Process 1
+Process 0 sending 85 to Process 1
+Process 0 sending 20 to Process 1
+Total Balance : [5217 8506 8701]
+=========
+Channel State of Proc 0 :
+Channel 0:map[]
+Channel 1:map[0:1576]
+Channel 2:map[]
+
+Channel State of Proc 1 :
+Channel 0:map[1:1224]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 2 :
+Channel 0:map[2:1776]
+Channel 1:map[]
+Channel 2:map[]
+Taking Snapshot!
+Process 0 sending 68 to Process 1
+Process 2 sending 1 to Process 0
+Process 2 sending 1 to Process 0
+Process 0 sending 72 to Process 2
+Process 0 sending 42 to Process 1
+Process 2 sending 52 to Process 1
+Process 2 sending 17 to Process 1
+Process 0 sending 66 to Process 2
+Process 2 sending 46 to Process 1
+Process 2 sending 76 to Process 1
+Process 0 sending 44 to Process 1
+Process 2 sending 59 to Process 1
+Process 2 sending 57 to Process 1
+Process 0 sending 71 to Process 1
+Process 0 sending 60 to Process 1
+Process 2 sending 99 to Process 0
+Process 2 sending 37 to Process 1
+Process 0 sending 49 to Process 2
+Process 2 sending 46 to Process 0
+Process 2 sending 27 to Process 1
+Process 2 sending 42 to Process 0
+Total Balance : [4745 8877 8328]
+=========
+Channel State of Proc 0 :
+Channel 0:map[]
+Channel 1:map[0:1861]
+Channel 2:map[]
+
+Channel State of Proc 1 :
+Channel 0:map[1:1224]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 2 :
+Channel 0:map[2:1965]
+Channel 1:map[]
+Channel 2:map[]
+Taking Snapshot!
+Process 2 sending 95 to Process 0
+Process 0 sending 28 to Process 2
+Process 0 sending 91 to Process 1
+Process 0 sending 43 to Process 1
+Process 0 sending 95 to Process 2
+Process 2 sending 17 to Process 0
+Process 0 sending 55 to Process 2
+Process 0 sending 5 to Process 2
+Process 0 sending 40 to Process 2
+Process 0 sending 16 to Process 2
+Process 0 sending 81 to Process 2
+Process 2 sending 38 to Process 0
+Process 0 sending 99 to Process 2
+Process 0 sending 3 to Process 2 
+Process 2 sending 26 to Process 0
+Process 2 sending 81 to Process 1
+Total Balance : [4189 8958 8493]
+=========
+Channel State of Proc 0 :
+Channel 0:map[]
+Channel 1:map[0:1995]    
+Channel 2:map[]
+
+Channel State of Proc 1 :
+Channel 0:map[1:1224]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 2 :
+Channel 0:map[2:2141]
+Channel 1:map[]
+Channel 2:map[]
+Taking Snapshot!
+Process 1 sending 94 to Process 0
+Process 2 sending 29 to Process 0
+Process 1 sending 26 to Process 2
+Process 2 sending 13 to Process 1
+Process 1 sending 69 to Process 2
+Process 2 sending 74 to Process 1
+Process 1 sending 5 to Process 2
+Process 1 sending 29 to Process 0
+Process 2 sending 54 to Process 1
+Process 2 sending 41 to Process 0
+Process 1 sending 48 to Process 0
+Process 2 sending 32 to Process 1
+Process 2 sending 69 to Process 0
+Process 2 sending 28 to Process 0
+Process 2 sending 4 to Process 0
+Process 1 sending 9 to Process 0
+Process 2 sending 86 to Process 0
+Process 1 sending 4 to Process 2
+Process 1 sending 62 to Process 2
+Process 2 sending 81 to Process 1
+Total Balance : [4189 8866 8148]
+=========
+Channel State of Proc 0 :
+Channel 0:map[]
+Channel 1:map[0:1995]
+Channel 2:map[]
+
+Channel State of Proc 1 :
+Channel 0:map[1:1404]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 2 :
+Channel 0:map[2:2398]
+Channel 1:map[]
+Channel 2:map[]
+Taking Snapshot!
+Process 1 sending 12 to Process 0
+Process 0 sending 0 to Process 2
+Process 0 sending 75 to Process 2
+Process 1 sending 15 to Process 2
+Process 0 sending 20 to Process 2
+Process 0 sending 12 to Process 2
+Process 1 sending 90 to Process 2
+Process 0 sending 9 to Process 1
+Process 0 sending 21 to Process 2
+Process 0 sending 53 to Process 2
+Process 1 sending 58 to Process 2
+Process 0 sending 34 to Process 1
+Process 0 sending 97 to Process 1
+Process 1 sending 44 to Process 0
+Process 0 sending 5 to Process 2
+Process 0 sending 70 to Process 1
+Process 1 sending 57 to Process 0
+Process 0 sending 38 to Process 1
+Process 0 sending 92 to Process 1
+Process 0 sending 53 to Process 2
+Process 1 sending 38 to Process 0
+Total Balance : [3610 8552 8550]
+=========
+Channel State of Proc 0 :
+Channel 0:map[]
+Channel 1:map[0:2335]
+Channel 2:map[]
+
+Channel State of Proc 1 :
+Channel 0:map[1:1555]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 2 :
+Channel 0:map[2:2398]
+Channel 1:map[]
+Channel 2:map[]
+Taking Snapshot!
+Process 2 sending 24 to Process 0
+Process 1 sending 46 to Process 0
+Process 1 sending 85 to Process 2
+Process 0 sending 54 to Process 1
+Process 2 sending 0 to Process 1
+Process 0 sending 81 to Process 1
+Process 2 sending 94 to Process 0
+Process 2 sending 20 to Process 1
+Process 0 sending 80 to Process 2
+Process 1 sending 55 to Process 2
+Process 2 sending 8 to Process 0
+Process 1 sending 49 to Process 2
+Process 2 sending 85 to Process 1
+Process 0 sending 19 to Process 1
+Process 1 sending 4 to Process 0
+Process 2 sending 99 to Process 1
+Process 2 sending 49 to Process 1
+Process 1 sending 25 to Process 0
+=========
+Channel State of Proc 0 :
+Channel 0:map[]
+Channel 1:map[0:2489]
+Channel 2:map[]
+
+Channel State of Proc 1 :
+Channel 0:map[1:1630]
+Channel 1:map[]
+Channel 2:map[]
+
+Channel State of Proc 2 :
+Channel 0:map[2:2524]
+Channel 1:map[]
+Channel 2:map[]
