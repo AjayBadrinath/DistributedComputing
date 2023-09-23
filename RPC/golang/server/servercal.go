@@ -4,6 +4,7 @@ Author: AjayBadrinath
 Date: 23-09-2023
 
 */
+// For Further reading read the docs at https://pkg.go.dev/net/rpc#Client.Call
 
 package main //Default entry point for go
 // Required imports
